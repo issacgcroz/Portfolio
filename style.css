@@ -1,0 +1,125 @@
+/* CSS for the header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 36px;
+  }
+  
+  header nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+  }
+  
+  header nav li {
+    margin: 0 10px;
+  }
+  
+  header nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+  }
+  
+  /* CSS for the main content */
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  section {
+    padding: 50px 0;
+    text-align: center;
+  }
+
+  section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+  section p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+ }
+  
+ /* section h2 {
+    margin-top: 0;
+    font-size: 32px;
+  }
+   */
+  section ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  section li {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+  
+  section li h3 {
+    margin-top: 0;
+    font-size: 24px;
+  }
+  
+  section li img {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  section li p {
+    margin-top: 0;
+  }
+  
+  /* CSS for the contact form */
+  form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
